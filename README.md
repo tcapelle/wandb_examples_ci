@@ -4,6 +4,8 @@ This repo gives a minimal implementation of testing 1 example of the examples re
 
 - The dockerfile has a sort-of minimal pytorch image
 
+> Build with: `docker build . -t "minimal"`
+
 ## Running the test
 
 ```bash
