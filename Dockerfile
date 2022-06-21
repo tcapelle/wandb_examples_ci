@@ -3,7 +3,8 @@
 
 FROM nvcr.io/nvidia/pytorch:22.05-py3
 
-RUN python3 -m pip install -U wandb
+RUN python3 -m pip install wandb \
+    transformers datasets pytorch-lightning
 
 RUN python3 -m pip install --no-cache-dir \
     git+https://github.com/wandb/nb_helpers.git@main
